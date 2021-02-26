@@ -39,6 +39,7 @@ spring:
 #      connection-timeout: 30000
 #      connection-test-query: SELECT 1
 
+#mybatis-plus
 mybatis-plus:
   mapper-locations: classpath:/sql-mappers/*.xml
   type-aliases-package: com.example.seckill.model
