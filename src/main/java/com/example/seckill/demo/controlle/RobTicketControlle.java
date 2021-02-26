@@ -66,6 +66,7 @@ public class RobTicketControlle {
         }
     }
 
+    //button点击事件测试
     public void button1() {
         new Thread(new MyThread()).start();
         ticket1++;
