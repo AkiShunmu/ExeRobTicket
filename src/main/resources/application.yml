@@ -43,6 +43,7 @@ mybatis-plus:
   mapper-locations: classpath:/sql-mappers/*.xml
   type-aliases-package: com.example.seckill.model
 
+#日志打印(错误信息)
 logging:
   level:
     com.example.seckill.model: debug
